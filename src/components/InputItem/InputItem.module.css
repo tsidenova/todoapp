@@ -1,0 +1,18 @@
+.textfield {
+	width: 390px;
+}
+
+.input {
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.button {
+	width:390px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 520px) {
+	.textfield {
+		width: 150px;
+	}
+}

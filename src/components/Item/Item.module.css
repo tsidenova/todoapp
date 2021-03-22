@@ -1,0 +1,12 @@
+.item {
+	color: black;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.item,
+.done:hover {
+	
+}

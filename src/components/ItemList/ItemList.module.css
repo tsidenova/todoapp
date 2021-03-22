@@ -1,0 +1,42 @@
+.list {
+	padding-left: 20px;
+}
+
+.item {
+	font-size: 16px;
+	height: 40px;
+	text-align: left;
+	border-radius: 15px;
+	border: 0.5px solid grey;
+	margin-bottom: 10px;
+}
+
+.itemline {
+	display: flex;
+	justify-content: space-between;
+	height: 20px;
+	padding-top: 8px;
+	padding-right: 3px;
+	padding-left: 10px;
+}
+
+.delete {	
+	opacity: 0;
+}
+
+.item:hover .delete {
+	opacity: 1;
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+.button {
+	text-align: right;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	padding-right: 5px;
+}
+
